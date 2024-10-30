@@ -7,17 +7,17 @@ const Header = ({ children, className }: HeaderProps) => {
     <div className={cn('header', className)}>
         <Link href='/' className='md:flex-1'>
             <Image 
-                src="/assets/icons/logo.svg" 
+                src="/assets/images/logo_1.png" 
                 alt="Logo with title" 
-                width={120} 
+                width={180} 
                 height={32} 
                 className='hidden md:block' 
             />
             <Image
-                src="/assets/icons/logo-icon.svg" 
+                src="/assets/images/logo.png" 
                 alt="Logo icon"
-                width={32} 
-                height={32} 
+                width={82} 
+                height={82} 
                 className='mr-2 md:hidden' 
             />
         </Link>
